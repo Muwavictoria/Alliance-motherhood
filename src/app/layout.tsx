@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Alliance for Safe Motherhood | Women's Medical Centre",
   description: "Promoting safe pregnancy, childbirth and maternal health through education, advocacy and support to mothers and families.",
+  icons: {
+    icon: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
