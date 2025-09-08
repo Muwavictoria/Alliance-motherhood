@@ -16,7 +16,7 @@ export default function Hero() {
               <Heart className="h-8 w-8 text-pink-600" />
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Alliance for Safe Motherhood</h1>
-                <p className="text-sm text-gray-600">Women's Medical Centre</p>
+                <p className="text-sm text-gray-600">Women&apos;s Medical Centre</p>
               </div>
             </div>
             

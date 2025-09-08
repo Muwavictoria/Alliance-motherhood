@@ -37,7 +37,7 @@ export default function Footer() {
               <Heart className="h-8 w-8 text-pink-500" />
               <div>
                 <h3 className="text-xl font-bold">Alliance for Safe Motherhood</h3>
-                <p className="text-sm text-gray-400">Women's Medical Centre</p>
+                <p className="text-sm text-gray-400">Women&apos;s Medical Centre</p>
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -189,7 +189,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-gray-400 text-sm">
-                © 2024 Alliance for Safe Motherhood and Women's Medical Centre. All rights reserved.
+                © 2024 Alliance for Safe Motherhood and Women&apos;s Medical Centre. All rights reserved.
               </p>
               <p className="text-gray-500 text-xs mt-1">
                 Dedicated to ensuring every mother has access to safe, respectful and quality maternal healthcare.

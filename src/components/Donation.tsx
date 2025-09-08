@@ -231,8 +231,8 @@ export default function Donation() {
                   ))}
                 </div>
                 <p className="text-gray-700 italic mb-4">
-                  "Thanks to the Alliance for Safe Motherhood, I received the care I needed during 
-                  my pregnancy. Their support made all the difference for me and my baby."
+                  &ldquo;Thanks to the Alliance for Safe Motherhood, I received the care I needed during 
+                  my pregnancy. Their support made all the difference for me and my baby.&rdquo;
                 </p>
                 <p className="font-semibold text-gray-900">- Sarah M., New Mother</p>
               </div>
