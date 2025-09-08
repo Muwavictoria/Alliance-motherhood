@@ -15,7 +15,7 @@ export default function Hero() {
             <div className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-pink-600" />
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Alliance for Safe Motherhood</h1>
+                <h1 className="text-xl font-bold text-gray-900">Alliance for Safe Motherhood And</h1>
                 <p className="text-sm text-gray-600">Women&apos;s Medical Centre</p>
               </div>
             </div>
@@ -83,30 +83,7 @@ export default function Hero() {
               </button>
             </div>
 
-            {/* Quick Contact Info */}
-            <div className="mt-12 space-y-6 sm:space-y-0 sm:grid sm:grid-cols-1 lg:grid-cols-3 gap-6">
-              <div className="flex items-start space-x-3">
-                <Phone className="h-5 w-5 text-pink-600 mt-1 flex-shrink-0" />
-                <div className="min-w-0 flex-1">
-                  <p className="text-sm text-gray-500">Call Us</p>
-                  <p className="font-semibold text-gray-900 text-sm">+256 782 184 024</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <Mail className="h-5 w-5 text-pink-600 mt-1 flex-shrink-0" />
-                <div className="min-w-0 flex-1">
-                  <p className="text-sm text-gray-500">Email</p>
-                  <p className="font-semibold text-gray-900 text-sm break-all">info@alliancesafemotherhood.org</p>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-pink-600 mt-1 flex-shrink-0" />
-                <div className="min-w-0 flex-1">
-                  <p className="text-sm text-gray-500">Location</p>
-                  <p className="font-semibold text-gray-900 text-sm">Kadama, Mbale</p>
-                </div>
-              </div>
-            </div>
+
           </div>
 
           <div className="relative">
