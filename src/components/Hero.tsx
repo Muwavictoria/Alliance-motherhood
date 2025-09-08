@@ -84,26 +84,26 @@ export default function Hero() {
             </div>
 
             {/* Quick Contact Info */}
-            <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-pink-600" />
-                <div>
+            <div className="mt-12 space-y-6 sm:space-y-0 sm:grid sm:grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="flex items-start space-x-3">
+                <Phone className="h-5 w-5 text-pink-600 mt-1 flex-shrink-0" />
+                <div className="min-w-0 flex-1">
                   <p className="text-sm text-gray-500">Call Us</p>
-                  <p className="font-semibold text-gray-900">+256 782 184 024</p>
+                  <p className="font-semibold text-gray-900 text-sm">+256 782 184 024</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-pink-600" />
-                <div>
+              <div className="flex items-start space-x-3">
+                <Mail className="h-5 w-5 text-pink-600 mt-1 flex-shrink-0" />
+                <div className="min-w-0 flex-1">
                   <p className="text-sm text-gray-500">Email</p>
-                  <p className="font-semibold text-gray-900">info@alliancesafemotherhood.org</p>
+                  <p className="font-semibold text-gray-900 text-sm break-all">info@alliancesafemotherhood.org</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-3">
-                <MapPin className="h-5 w-5 text-pink-600" />
-                <div>
+              <div className="flex items-start space-x-3">
+                <MapPin className="h-5 w-5 text-pink-600 mt-1 flex-shrink-0" />
+                <div className="min-w-0 flex-1">
                   <p className="text-sm text-gray-500">Location</p>
-                  <p className="font-semibold text-gray-900">Kadama, Mbale</p>
+                  <p className="font-semibold text-gray-900 text-sm">Kadama, Mbale</p>
                 </div>
               </div>
             </div>
